@@ -13,6 +13,8 @@
 #ifndef STM32F401XX_H_
 #define STM32F401XX_H_
 
+#define  __weak __attribute__((weak))
+
 /*
  * Base addresses of FLASH and SRAM memories
  */
